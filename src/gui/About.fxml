@@ -6,18 +6,15 @@
 <?import javafx.scene.text.Font?>
 
 
-<VBox prefHeight="240.0" prefWidth="323.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+<VBox prefHeight="204.0" prefWidth="352.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1">
    <children>
-      <Label prefHeight="47.0" prefWidth="96.0" text="About">
+      <Label text="About">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
          <padding>
             <Insets bottom="10.0" left="20.0" top="10.0" />
          </padding>
-         <VBox.margin>
-            <Insets />
-         </VBox.margin>
       </Label>
       <Label text="JavaFX application demo">
          <padding>

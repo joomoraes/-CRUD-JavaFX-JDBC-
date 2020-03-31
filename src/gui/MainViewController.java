@@ -21,8 +21,10 @@ public class MainViewController implements Initializable {
 	
 	@FXML
 	private MenuItem menuItemSeller;
+	
 	@FXML
 	private MenuItem menuItemDepartment;
+	
 	@FXML
 	private MenuItem menuItemAbout;
 	
@@ -42,9 +44,7 @@ public class MainViewController implements Initializable {
 	}
 	
 	@Override
-	public void initialize(URL uri, ResourceBundle rb) {
-		
-	}
+	public void initialize(URL uri, ResourceBundle rb) {}
 	
 	private synchronized void loadView(String absoluteName) {
 		try {
