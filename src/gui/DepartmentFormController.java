@@ -1,9 +1,12 @@
 package gui;
 
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 
 import db.DbException;
+import gui.listeners.DataChangeListener;
 import gui.util.Alerts;
 import gui.util.Constraints;
 import gui.util.Utils;
@@ -17,7 +20,7 @@ import javafx.scene.control.TextField;
 import model.entities.Department;
 import model.services.DepartmentServices;
 
-public class DepartmentFormController implements Initializable {
+public class DepartmentFormController implements Initializable{
 
 	private Department entity;
 	
@@ -25,6 +28,8 @@ public class DepartmentFormController implements Initializable {
 	private TextField txtId;
 	
 	private DepartmentServices service;
+	
+	private List<DataChangeListener> dataChangeListeners = new ArrayList<>();
 	
 	@FXML
 	private TextField txtName;
@@ -46,6 +51,10 @@ public class DepartmentFormController implements Initializable {
 		this.service = service;
 	}
 	
+	public void subscribDataChengeListener(DataChangeListener listener) {
+		dataChangeListeners.add(listener);
+	}
+	
 	@FXML
 	public void onBtSaveAction(ActionEvent event) {
 		// Caso tenha esquecido de injetar dependência
@@ -59,6 +68,7 @@ public class DepartmentFormController implements Initializable {
 			entity = getFormData();
 			// SALVANDO NO BANCO DE DADOS
 			service.SaveOrUpdate(entity);
+			notifyDataChangeListeners();
 			// FECHAR JANELA
 			Utils.currentStage(event).close();
 		} catch (DbException e) {
@@ -66,6 +76,13 @@ public class DepartmentFormController implements Initializable {
 		}
 	}
 	
+	private void notifyDataChangeListeners() {
+		for(DataChangeListener listener : dataChangeListeners) {
+			listener.onDataChanged();
+		}
+		
+	}
+
 	private Department getFormData() {
 		Department obj = new Department();
 		
