@@ -1,2 +1,49 @@
-# -CRUD-JavaFX-JDBC-
- new idea in the development of crud with java language using APIs for GUI (JavaFX) and database (JDBC)
+# CRUD JAVA
+
+## Desenvolvimento do CRUD básico com API'S EM java e suas bibliotecas.
+ 
+
+![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+
+
+### Telas Desenvolvidas com [SceneBuilder](https://gluonhq.com/products/scene-builder/) ℹ
+
+##### Tela Principal
+
+![](Program/imgs/MainVIew.jpg)
+
+> Main View
+
+##### Tela Sobre
+
+![](Program/imgs/About.jpg)
+
+> About View
+
+
+##### Tela Department
+
+![](Program/imgs/Department/DepartmentList.jpg)
+
+> Department List
+
+##### Tela Department > Form 
+
+![](Program/imgs/Department/Department_Form.jpg)
+
+> Department Form
+
+##### Tela Department > Delete
+
+![](-CRUD-JavaFX-JDBC-/Program/imgs/Department/Department_Delete.jpg)
+
+> Department Delete
+
+
+##### Tela Department > Edit
+
+![](-CRUD-JavaFX-JDBC-/Program/imgs/Department/Department_Edit.jpg)
+
+
+> Department Edit
+
