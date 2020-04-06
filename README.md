@@ -46,3 +46,30 @@
 
 > Department Edit
 
+##### Tela Seller 
+
+![](Program/imgs/Seller/Seller_List.jpg)
+
+> Seller List
+
+##### Tela Seller > Form
+
+![](Program/imgs/Seller/Seller_Form.jpg)
+
+> Seller Form
+
+##### Tela Seller > Edit
+
+![](Program/imgs/Seller/Seller_Edit.jpg)
+
+> Seller Edit
+
+
+##### Tela Seller > Remove
+
+![](Program/imgs/Seller/Seller_Remove.jpg)
+
+> Seller Remove
+
+
+
