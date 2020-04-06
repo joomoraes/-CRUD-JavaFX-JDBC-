@@ -35,15 +35,14 @@
 
 ##### Tela Department > Delete
 
-![](-CRUD-JavaFX-JDBC-/Program/imgs/Department/Department_Delete.jpg)
+![](Program/imgs/Department/Department_Delete.jpg)
 
 > Department Delete
 
 
 ##### Tela Department > Edit
 
-![](-CRUD-JavaFX-JDBC-/Program/imgs/Department/Department_Edit.jpg)
-
+![](Program/imgs/Department/Department_Edit.jpg)
 
 > Department Edit
 
