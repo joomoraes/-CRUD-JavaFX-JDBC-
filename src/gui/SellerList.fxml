@@ -26,12 +26,12 @@
       </ToolBar>
       <TableView fx:id="tableViewSeller" prefHeight="200.0" prefWidth="200.0">
         <columns>
-          <TableColumn fx:id="tableColumnId" prefWidth="75.0" text="Id" />
-          <TableColumn fx:id="tableColumnName" prefWidth="75.0" text="Name" />
-            <TableColumn fx:id="tableColumnEmail" prefWidth="75.0" text="Email" />
-            <TableColumn fx:id="tableColumnBirthDate" prefWidth="75.0" text="BirthDate" />
-            <TableColumn fx:id="tableColumnBaseSalary" prefWidth="75.0" text="BaseSalary" />
-            <TableColumn fx:id="tableColumnREMOVE" prefWidth="75.0" />
+          <TableColumn fx:id="tableColumnId" prefWidth="30.0" text="Id" />
+          <TableColumn fx:id="tableColumnName" prefWidth="84.0" text="Name" />
+            <TableColumn fx:id="tableColumnEmail" prefWidth="101.0" text="Email" />
+            <TableColumn fx:id="tableColumnBirthDate" prefWidth="69.0" text="BirthDate" />
+            <TableColumn fx:id="tableColumnBaseSalary" prefWidth="72.0" text="BaseSalary" />
+            <TableColumn fx:id="tableColumnREMOVE" prefWidth="94.0" />
             <TableColumn fx:id="tableColumnEDIT" prefWidth="75.0" />
         </columns>
       </TableView>
